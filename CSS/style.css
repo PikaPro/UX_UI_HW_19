@@ -1,0 +1,419 @@
+nav {
+    /*background-color: #FDF8E3;*/
+    display: inline-flex;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+   
+} 
+
+#navmenu {
+   /*background-color: lightgrey;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+   
+}
+
+.colormenu {
+ 
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline;
+    text-align: right;
+    padding: 20px 30px;
+    text-decoration: none;
+
+}
+    /* Nav Menu Colors */
+.about {
+    color:#F3C445;
+    display:inline;
+}
+.projects {
+    color: #A4C92B;
+    display:inline;
+}
+.skills {
+    color: #9AC1F0;
+    display: inline;
+}
+.resumeli {
+    color: #AB78E1;
+    display: inline;
+}
+
+/*break line*/
+.line {
+    display: block;
+    background-color: #F3C445;
+    width: 100%;
+    height: 8px;
+}
+
+
+.logo {
+       /*background-color: blue;*/
+        size: auto;   
+    }
+
+/*middle section */
+
+section{
+    padding: 20px;
+}
+
+
+.meimg {
+    height: 200px;
+    border: solid 5px;
+    border-color: #9AC1F0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p.aboutme {
+    background-color: #9AC1F0;
+    text-align: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.resume {
+    background-color: #AB78E1;
+    padding: 10px;
+    border: #AB78E1;
+    border-radius: 10px;
+    color: #FDF8E3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #F3C445;
+    width: 100%;
+     
+}
+
+p.email {
+    display: inline-flex;
+    align-items: center;
+    display: block;
+    text-align: right;
+    padding: 20px 30px;
+}
+
+.footerlist {
+    display:inline;
+    text-decoration: none;
+}
+
+.logo2 {
+    /*background-color: blue;*/
+    width: 23%;    
+ }
+
+/* My skills Section using CSS flex*/
+
+.mySkills {
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    column-count: 4;
+    justify-content: space-around;
+    height: auto;
+    flex-direction: row;
+
+}
+
+.interaction {
+    background-color: #A4C92B;
+    display:flex;
+    border: 1px solid black;
+    padding: 30px;     
+}
+
+.interlist {
+    list-style-type: none;
+}
+
+.skillsT {
+    padding: 30px;
+}
+
+.visual {
+    background-color: #9AC1F0;
+    display:flex;
+    border: 1px solid black;
+    padding: 30px;
+
+  
+}
+
+.software {
+    background-color: #F3C445;
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+  
+    
+}
+
+.coding {
+    background-color: #AB78E1;
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+   
+
+}
+
+.FunBox {
+    width: 600px;
+    border: 5px solid #AB78E1;
+    background-color: #FDF8E3;
+    padding: 50px;
+    margin: 20px;
+    text-align: left;
+}
+
+/*My Work Section Constructed Using CSS Grid*/
+
+.projectsT {
+    text-align: left;
+}
+
+.lineP {
+    display: block;
+    background-color: #F3C445;
+    width: 60%;
+    height: 8px;
+    
+}
+
+.workGrid {
+    display: inline-grid;
+    grid-template-columns: 300px 150px 300px 300px;
+   
+   
+   
+
+}
+
+/*.buttonarea {
+    padding: 20px;
+    background-color: #A4C92B; 
+}*/
+
+.buttoncase {
+    background-color: #A4C92B;
+    color: black;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+.buttoncase2 {
+    background-color: #9AC1F0;
+    color: black;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+#cardcontainer1 {
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+
+}
+.dogimg {
+    position:relative;
+    width: 250px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+#cardcontainer2 {
+    max-width: 275px;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+
+}
+
+.ihwnA {
+    position:relative;
+    width: 250px;
+    height: 265px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+#cardcontainer3 {
+    max-width: 275px;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+
+}
+#cardcontainer4 {
+    max-width: 275px;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+
+}
+/*
+.pets{
+    border-radius: 12px;
+    text-align: center;
+}
+
+.wolf{
+    border-radius: 12px;
+    text-align: center;
+
+}*/
+
+.petsinfo{
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.wolfinfo{
+   
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.viewall { 
+    background-color: #AB78E1;
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    display: block;
+    padding: 10px;
+    border: #AB78E1;
+    color: #FDF8E3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+
+}
+
+@media (max-width: 600px) {
+    .skillsT{
+        text-align: center;
+    }
+
+    .flexContainer {
+        display: column;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    
+    .interaction {
+    width: 100%;
+    justify-content: center;
+    
+    }
+
+    .visual {
+    width: 100%;
+    justify-content: center;
+    }
+
+    .software {
+    width: 100%;
+    justify-content: center;
+    }
+
+    .coding {
+    width: 100%;
+    justify-content: center;
+    }
+
+    .FunBox {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+
+    .projectsT {
+        text-align: center;
+    }
+
+    .lineP {
+        width:100%;
+    }
+
+    /*Media projects/work section*/
+
+    .Grid {
+        display: grid;
+        justify-content: center;
+    }
+    .workGrid {
+    grid-template-rows: 350px 250px 350px 250px 350px 250px 350px 250px ;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "cardcontainer1"
+    "petinfo1"
+    "cardcontainer2"
+    "wolfinfo1"
+    "cardcontainer3"
+    "petinfo2"
+    "cardcontainer4"
+    "wolfinfo2";
+    justify-content: center;
+   
+    }
+
+    .petsinfo{
+        text-align: center;
+    }
+
+    .wolfinfo {
+        text-align: center;
+    }
+}
