@@ -12,6 +12,8 @@ nav {
     margin-top: auto;
     margin-bottom: auto;
     display: inline-flex;
+    margin-left: auto;
+    margin-right: 0 !important;
    
 }
 
@@ -35,6 +37,7 @@ li a {
 .about {
     color:#F3C445;
     display:inline;
+
 }
 .projects {
     color: #A4C92B;
@@ -77,6 +80,7 @@ section{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 5px 5px #C9C5C0
 }
 
 
@@ -87,6 +91,7 @@ p.aboutme {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    box-shadow: 5px 5px #C9C5C0
 
 }
 
