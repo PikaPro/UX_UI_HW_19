@@ -1,8 +1,11 @@
 <!DOCTYPE html>
     <head>
         <title></title>
+        <link rel="stylesheet" href="https://use.typekit.net/ber3vyp.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ber3vyp.css">
         <link href="CSS/style.css" type="text/css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    
     </head>
 
     <body>
@@ -30,35 +33,148 @@
                 <div class="line"></div>
         </section>
 
-        <section class="heroImg">
-            <img src="Images/KFurman.jpg" alt="Me" class="meimg">
-             
-                <div>
-                    <p class="aboutme">
-                        Hi! I'm a Junior UX/UI designer looking to help take the
-                        frustation out of designing your webspace or app. My job
-                        revoloves around User Testing and Research; Visual Design
-                        Branding or Rebranding; and Enhancing Efficencies through 
-                        better user experience-design. 
-                    </p>
+        <section>
+            <div class = "herocontainer">
+               <img src = "Images/Background.png" alt="design" class="background">
+                <div class="welfont"> Welcome!</div>
+                <div class ="words">  
+                <p> You need a UX/UI designer...</p>
+                <br>
+                
+                <p>Let's Get Started!</p>
                 </div>
-                <div>    
-                    <button class ="resume">Click Here to Download Resume</button>
-                </div>
+              
+            </div>     
+        </section>
+
+        <section> <!--Dividing Line-->
+            <div class="line"></div>
+    </section>
+
+    <section>
+        <div id="welCards">
+            <div id="cardcontainerA">
+                <div class="pets">
+                    <img src = "Images/board.jpg" alt ="dog" class ="dogimg">
+                    <button class="buttontop1">PROJECTS</button>
+                </div>   
+            </div>
+
+            <div id="cardcontainerB">
+                <div class="pets">
+                    <img src = "Images/computerdog.jpg" alt ="dog" class ="dogimg">
+                    <button class="buttontop2">SKILLS</button>
+                </div>   
+            </div>    
+
+            <div id="cardcontainerC">
+                <div class="pets">
+                    <img src = "Images/writing.jpg" alt ="dog" class ="dogimg">
+                    <button class="buttontop3">RESUME</button>
+                </div>   
+            </div>    
+        </div>
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--My Work Section Constructed Using CSS Grid-->
+<section class = "uxprojects">
+    
+    <h1 class = "projectsT">UX/UI Projects</h1>
         
-        </section>  
+    <section> <!--Dividing Line-->
+        <div class="lineP"></div>
+    </section>
+
+    
+
+    <section class="Grid">
+    <div class="workGrid">
+
+        <div id="cardcontainer1">
+            <div class="pets">
+                <img src = "Images/OnlyPetsImage.png" alt ="dog" class ="dogimg">
+                <button class="buttoncase">MOBILE PROTOTYPE </button>
+            </div>   
+        </div>    
+
+        <div id="petinfo1" class="petsinfo">
+            <h4>Mobile Prototype</h4>
+            <p><i>OnlyPets</i></p>
+            <p>Created in 2022</p>
+            <p><u>Tools Used:</u></p>
+            <p>Figma & Miro</p>
+            
+        </div>
+        
+        <div id ="cardcontainer2">
+            <div class="wolf">
+                <img src = "Images/IHWN After Photo.png" alt ="IHWN" class="ihwnA">
+                <button class="buttoncase2">WEBSITE REDESIGN</button>
+            </div>
+        </div>
+
+        <div id="wolfinfo1" class="wolfinfo">
+            <h4>Website Redesign</h4>
+            <p><i>In Harmony With Nature</i></p>
+            <p>Created in 2022</p>
+            <p><u>Tools Used:</u></p>
+            <p>Figma</p>
+            
+        </div>
+
+        <div id="cardcontainer3">
+            <!--<div class="pets">-->
+                <img src = "Images/blank image icon.png" alt ="blank" class ="dogimg">
+                <button class="buttoncase3">COMING SOON</button>
+            <!--</div>-->  
+        </div>    
+
+        <div id="petinfo2" class="petsinfo">
+            <h4>Coming Soon</h4>
+            <p>Created in 2022</p>
+
+            
+        </div>
+        
+        <div id ="cardcontainer4">
+            <!--<div class="wolf">-->
+                <img src = "Images/blank image icon.png" alt ="IHWN" class="dogimg">
+                <button class="buttoncase4">COMING SOON</button>
+            <!--</div>-->
+        </div>
+
+        <div id="wolfinfo2" class="wolfinfo">
+            <h4>Coming Soon</h4>
+            <p>Created in 2022</p>
+            
+            
+        </div>
+
+    </div>
+    <div>        
+        <button class="viewall"> View All Projects</button>
+    </div>
+
+    </section>
+</section>
 
         <section> <!--Dividing Line-->
             <div class="line"></div>
         </section>
 
         <section class="mySkills">
-            <h1 class="skillsT">My Skills</h1>
+            <h1 class="skillsT">Skills</h1>
             <div class= "flexContainer">
                 
                     <div class="interaction">
                         <li class="interlist">
-                        <h1><p>Interaction</p></h1>
+                        <h1 class = "header"><p>Interaction</p></h1>
                             <p>User Research</p>
                             <p>Wireframing</p>
                             <p>Prototyping</p>
@@ -70,7 +186,7 @@
                 
                     <div class="visual">
                         <li class="interlist">
-                            <h1><p>Visual</p></h1>
+                            <h1 class = "header"><p>Visual</p></h1>
                                 <p>Print Layout</p>
                                 <p>Artistic Flow</p>
                                 <p>Big Picture Thinking</p>
@@ -78,7 +194,7 @@
 
                     <div class="software">
                         <li class="interlist">
-                            <h1><p>Software</p></h1>
+                            <h1 class="header"><p>Software</p></h1>
                                 <p>Figma</p>
                                 <p>Photoshop</p>
                                 <p>InVision</p>
@@ -89,7 +205,7 @@
 
                     <div class="coding">
                         <li class="interlist">
-                        <h1><p>Coding</p></h1>
+                        <h1 class="header"><p>Coding</p></h1>
                             <p>HTML</p>
                             <p>CSS</p>
                             <p>JAVA Script</p>
@@ -100,7 +216,7 @@
         <!--Fun Box-->
         <section>
             <div class="FunBox">
-                <h1>Fun Facts</h1>
+                <h1 class ="header">Fun Facts</h1>
                 <p>One of the top 25% of applicants in the 
                     Directors Guild of America Assistant Director
                     Internship Program.</p>
@@ -119,103 +235,51 @@
             <div class="line"></div>
         </section>
 
-        <!--My Work Section Constructed Using CSS Grid-->
-        <section class = "uxprojects">
-            
-            <h1 class = "projectsT">UX/UI Projects</h1>
-
-            <section> <!--Dividing Line-->
-                <div class="lineP"></div>
-            </section>
-
-            <section class="Grid">
-            <div class="workGrid">
-
-                <div id="cardcontainer1">
-                    <div class="pets">
-                        <img src = "Images/OnlyPetsImage.png" alt ="dog" class ="dogimg">
-                        <button class="buttoncase">Mobile Prototype Case Study</button>
-                    </div>   
-                </div>    
-
-                <div id="petinfo1" class="petsinfo">
-                    <h4>Mobile Prototype</h4>
-                    <p><i>OnlyPets</i></p>
-                    <p>Created in 2022</p>
-                    <p><u>Tools Used:</u></p>
-                    <p>Figma & Miro</p>
-                    
-                </div>
-                
-                <div id ="cardcontainer2">
-                    <div class="wolf">
-                        <img src = "Images/IHWN After Photo.png" alt ="IHWN" class="ihwnA">
-                        <button class="buttoncase2">Website Redesign</button>
-                    </div>
-                </div>
-
-                <div id="wolfinfo1" class="wolfinfo">
-                    <h4>Website Redesign</h4>
-                    <p><i>In Harmony With Nature</i></p>
-                    <p>Created in 2022</p>
-                    <p><u>Tools Used:</u></p>
-                    <p>Figma</p>
-                    
-                </div>
-
-                <div id="cardcontainer3">
-                    <!--<div class="pets">-->
-                        <img src = "Images/OnlyPetsImage.png" alt ="dog" class ="dogimg">
-                        <button class="buttoncase">Mobile Prototype Case Study</button>
-                    <!--</div>-->  
-                </div>    
-
-                <div id="petinfo2" class="petsinfo">
-                    <h4>Mobile Prototype</h4>
-                    <p><i>OnlyPets</i></p>
-                    <p>Created in 2022</p>
-                    <p><u>Tools Used:</u></p>
-                    <p>Figma & Miro</p>
-                    
-                </div>
-                
-                <div id ="cardcontainer4">
-                    <div class="wolf">
-                        <img src = "Images/IHWN After Photo.png" alt ="IHWN" class="ihwnA">
-                        <button class="buttoncase2">Website Redesign</button>
-                    </div>
-                </div>
-
-                <div id="wolfinfo2" class="wolfinfo">
-                    <h4>Website Redesign</h4>
-                    <p><i>In Harmony With Nature</i></p>
-                    <p>Created in 2022</p>
-                    <p><u>Tools Used:</u></p>
-                    <p>Figma</p>
-                    
-                </div>
-
-            </div>
-            <div>        
-                <button class="viewall"> View All Projects</button>
-            </div>
-            </section>
+        <section>
+            <h1 class="skillsT">About</h1>
         </section>
+        <section class="heroImg">
+            <img src="Images/KFurman.jpg" alt="Me" class="meimg">
+             
+                <div>
+                    <p class="aboutme">
+                        Hi! I'm a Junior UX/UI designer looking to help take the
+                        frustation out of designing your webspace or app. My job
+                        revoloves around User Testing and Research; Visual Design
+                        Branding or Rebranding; and Enhancing Efficencies through 
+                        better user experience-design. 
+                        <br>
+                        <br>
+                        With a background in Industrial Engineering, Film Production
+                        Management, and Graphic Design my strengths are in 
+                        problem solving and finding the best way to providing you 
+                        and your users a solution. 
+
+                    </p>
+                </div>
+                <div>    
+                    <button class ="resume">Click Here to Download Resume</button>
+                </div>
+        
+        </section>  
 
 
-    <footer>
+        <footer>
+            <div class="footerstuff">
                 <img src = "Images/Kfurman Logo.png" alt="logo" class="logo2">
                 <p class="email"> kfurmandesign@gmail.com</p>
-<!--
-                <ul class="footerlist">
-                    <li>>About</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Resume</li>
-                </ul>
-            -->
-     </footer>
-    </body>
-    <script src="js/index.js"></script>
-    
+
+            <ul class="footerlist">
+                About
+                Projects
+                Skills
+                Resume
+            </ul>
+            
+            <img src ="Images/linkedin icon.png" alt="LinkedIn" class="linkedin">
+            </div>
+        </footer>
+</body>
+<script src="js/index.js"></script>
+
 </html>

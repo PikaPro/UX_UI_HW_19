@@ -1,3 +1,14 @@
+/* font fam info
+font-family: "domlovesmary-text", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "halcom", sans-serif;
+font-weight: 400;
+font-style: italic;
+*/
+
+
 nav {
     /*background-color: #FDF8E3;*/
     display: inline-flex;
@@ -20,6 +31,10 @@ nav {
 .colormenu {
  
     list-style-type: none;
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
 }
 
 li {
@@ -66,17 +81,446 @@ li a {
         size: auto;   
     }
 
-/*middle section */
-
-section{
-    padding: 20px;
+/*welcome*/
+.background {
+    width:auto;
+    height: auto;
+  size: cover;
+ 
 }
 
+.welfont {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+
+
+}
+
+.herocontainer {
+    /*background: url("../Images/Background.png");
+    background-size: contain;*/
+   position: relative;
+    color: black;
+    
+}
+
+.words{
+    font-family: "halcom", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-20%, -20%)
+}
+
+
+
+
+/*welcome cards/buttons*/
+#welCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+#cardcontainerA {
+    display: flex;
+      
+}
+
+.buttontop1 {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    background-color: #A4C92B;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+#cardcontainerB {
+    display: flex;
+   
+}
+
+.buttontop2 {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    background-color: #9AC1F0;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+#cardcontainerC {
+    display: flex;
+}
+
+.buttontop3 {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    background-color: #AB78E1;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+
+/*My Work Section Constructed Using CSS Grid*/
+
+.uxprojects {
+    padding: 20px;
+    
+}
+.projectsT {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: left;
+    box-shadow: 5px 5px #C9C5C0;
+}
+
+.lineP {
+    display: block;
+    background-color: #F3C445;
+    width: auto;
+    height: 8px;
+    
+}
+
+.workGrid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    border-left: 8px solid #F3C445;
+    grid-column-gap: 50px;
+    
+
+   
+}
+
+/*.buttonarea {
+    padding: 20px;
+    background-color: #A4C92B; 
+}*/
+
+
+.buttoncase {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: #A4C92B;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+.buttoncase2 {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: #9AC1F0;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+.buttoncase3 {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: #F3C445;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+.buttoncase4 {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: #AB78E1;
+    color: #FDF8E3;
+    height:125px;
+    width: 253px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    
+}
+
+
+
+#cardcontainer1 {
+    max-width: 250px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 5px #C9C5C0
+    
+
+}
+.dogimg {
+    position:relative;
+    width: 250px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+#cardcontainer2 {
+    max-width: 275px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 5px #C9C5C0
+    
+
+}
+
+.ihwnA {
+    position:relative;
+    width: 250px;
+    height: 265px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+#cardcontainer3 {
+    max-width: 275px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 5px #C9C5C0
+    
+
+}
+#cardcontainer4 {
+    max-width: 275px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 5px #C9C5C0
+    
+
+}
+/*
+.pets{
+    border-radius: 12px;
+    text-align: center;
+}
+
+.wolf{
+    border-radius: 12px;
+    text-align: center;
+
+}*/
+
+.petsinfo{
+    font-family: "halcom", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.wolfinfo{
+    font-family: "halcom", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.viewall { 
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: #AB78E1;
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    display: block;
+    padding: 10px;
+    border: #AB78E1;
+    color: #FDF8E3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+
+}
+
+
+/* My skills Section using CSS flex*/
+
+.mySkills {
+    
+    text-align: center;
+}
+
+.header{
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flexContainer {
+    display: flex;
+    column-count: 4;
+    justify-content: space-around;
+    height: auto;
+    flex-direction: row;
+
+}
+
+.interaction {
+    background-color: #A4C92B;
+    display:flex;
+    border: 1px solid black;
+    padding: 30px;     
+    border-radius: 15px;
+    height: 500px;
+    box-shadow: 5px 5px #C9C5C0
+}
+
+.interlist {
+    list-style-type: none;
+}
+
+.skillsT {
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: left;
+    padding: 30px;
+    box-shadow: 5px 5px #C9C5C0
+   
+}
+
+.visual {
+    background-color: #9AC1F0;
+    display:flex;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #C9C5C0
+  
+}
+
+.software {
+    background-color: #F3C445;
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #C9C5C0
+    
+}
+
+.coding {
+    background-color: #AB78E1;
+    display: flex;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #C9C5C0
+
+}
+
+.FunBox {
+    font-family: "halcom", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 600px;
+    border: 5px solid #AB78E1;
+    background-color: #FDF8E3;
+    padding: 50px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 5px 5px #C9C5C0
+}
+
+
+
+
+/*about section */
+
+/*section{
+    padding: 20px;
+}*/
+
+.heroImg{
+    padding: 20px;
+}
 
 .meimg {
     height: 200px;
     border: solid 5px;
     border-color: #9AC1F0;
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -85,13 +529,18 @@ section{
 
 
 p.aboutme {
+    font-family: "halcom", sans-serif;
+    font-weight: 400;
+    font-style: italic;
     background-color: #9AC1F0;
+    border-radius: 15px;
     text-align: center;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     box-shadow: 5px 5px #C9C5C0
+    
 
 }
 
@@ -111,238 +560,43 @@ p.aboutme {
 /*footer*/
 
 footer {
+  
     background-color: #F3C445;
     width: 100%;
      
 }
+.footerstuff {
+    display: inline;
+}
 
 p.email {
+    display: inline;
+    font-family: "domlovesmary-text", serif;
+    font-weight: 400;
+    font-style: normal;
     display: inline-flex;
     align-items: center;
-    display: block;
-    text-align: right;
-    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: 0 !important;
 }
 
 .footerlist {
     display:inline;
     text-decoration: none;
+    float: left;
+    
 }
 
 .logo2 {
+    display: inline;
     /*background-color: blue;*/
     width: 23%;    
  }
 
-/* My skills Section using CSS flex*/
-
-.mySkills {
-    text-align: center;
-}
-
-.flexContainer {
-    display: flex;
-    column-count: 4;
-    justify-content: space-around;
-    height: auto;
-    flex-direction: row;
-
-}
-
-.interaction {
-    background-color: #A4C92B;
-    display:flex;
-    border: 1px solid black;
-    padding: 30px;     
-}
-
-.interlist {
-    list-style-type: none;
-}
-
-.skillsT {
-    padding: 30px;
-}
-
-.visual {
-    background-color: #9AC1F0;
-    display:flex;
-    border: 1px solid black;
-    padding: 30px;
-
-  
-}
-
-.software {
+ .linkedin {
     background-color: #F3C445;
-    display: flex;
-    border: 1px solid black;
-    padding: 30px;
-  
-    
-}
-
-.coding {
-    background-color: #AB78E1;
-    display: flex;
-    border: 1px solid black;
-    padding: 30px;
-   
-
-}
-
-.FunBox {
-    width: 600px;
-    border: 5px solid #AB78E1;
-    background-color: #FDF8E3;
-    padding: 50px;
-    margin: 20px;
-    text-align: left;
-}
-
-/*My Work Section Constructed Using CSS Grid*/
-
-.projectsT {
-    text-align: left;
-}
-
-.lineP {
-    display: block;
-    background-color: #F3C445;
-    width: 60%;
-    height: 8px;
-    
-}
-
-.workGrid {
-    display: inline-grid;
-    grid-template-columns: 300px 150px 300px 300px;
-   
-   
-   
-
-}
-
-/*.buttonarea {
-    padding: 20px;
-    background-color: #A4C92B; 
-}*/
-
-.buttoncase {
-    background-color: #A4C92B;
-    color: black;
-    height:125px;
-    width: 253px;
-    border: 2px solid black;
-    border-radius: 15px;
-    position: relative;
-    bottom: 50px;
-    cursor: pointer;
-    
-}
-
-.buttoncase2 {
-    background-color: #9AC1F0;
-    color: black;
-    height:125px;
-    width: 253px;
-    border: 2px solid black;
-    border-radius: 15px;
-    position: relative;
-    bottom: 50px;
-    cursor: pointer;
-    
-}
-
-#cardcontainer1 {
-    max-width: 250px;
-    margin: 0 auto;
-    border-radius: 12px;
-    
-
-}
-.dogimg {
-    position:relative;
-    width: 250px;
-    object-fit: cover;
-    border: 2px solid black;
-    border-radius: 15px;
-    
-}
-
-#cardcontainer2 {
-    max-width: 275px;
-    margin: 0 auto;
-    border-radius: 12px;
-    
-
-}
-
-.ihwnA {
-    position:relative;
-    width: 250px;
-    height: 265px;
-    object-fit: cover;
-    border: 2px solid black;
-    border-radius: 15px;
-    
-}
-
-#cardcontainer3 {
-    max-width: 275px;
-    margin: 0 auto;
-    border-radius: 12px;
-    
-
-}
-#cardcontainer4 {
-    max-width: 275px;
-    margin: 0 auto;
-    border-radius: 12px;
-    
-
-}
-/*
-.pets{
-    border-radius: 12px;
-    text-align: center;
-}
-
-.wolf{
-    border-radius: 12px;
-    text-align: center;
-
-}*/
-
-.petsinfo{
-    padding: 10px;
-    text-align: left;
-    
-}
-
-.wolfinfo{
-   
-    padding: 10px;
-    text-align: left;
-    
-}
-
-.viewall { 
-    background-color: #AB78E1;
-    border-radius: 10px;
-    width: 200px;
-    height: 75px;
-    display: block;
-    padding: 10px;
-    border: #AB78E1;
-    color: #FDF8E3;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-
-
-}
+    float: left;
+ }
 
 @media (max-width: 600px) {
     .skillsT{
