@@ -497,10 +497,11 @@ li a {
     border: 5px solid #AB78E1;
     background-color: #FDF8E3;
     padding: 50px;
-    margin: 20px;
+    margin: auto;
     text-align: left;
     border-radius: 15px;
     box-shadow: 5px 5px #C9C5C0
+
 }
 
 
@@ -576,8 +577,7 @@ footer {
  }
 
 #footerid {
-  
-     margin-top: auto;
+ margin-top: auto;
      margin-bottom: auto;
      display: inline-flex;
      margin-left: auto;
