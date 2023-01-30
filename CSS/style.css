@@ -559,7 +559,7 @@ p.aboutme {
 
 
 /*footer*/
-
+/*
 footer {
   
     background-color: #F3C445;
@@ -570,7 +570,6 @@ footer {
 
 .logo2 {
     display: inline;
-    /*background-color: blue;*/
     width: 23%; 
     float: top; 
      
@@ -595,16 +594,30 @@ p.email {
     margin-bottom: auto;
 
 }
-
-
-
  .linkedin {
     
     background-color: #F3C445;
     float: right;
    
     padding: 40px;
- }
+ }*/
+
+ footer {
+  background-color: #F3C445;
+  padding: 30px;
+  color: black;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  font-family: "domlovesmary-text", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  padding: 0px 7px;
+}
 
 @media (max-width: 600px) {
     .skillsT{
